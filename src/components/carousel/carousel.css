@@ -1,0 +1,26 @@
+img {
+  display: inline-block;
+  width: 100%;
+}
+.carousel-arrow-left {
+  display: block;
+  position: absolute;
+  width: 37px;
+  top: 46.5%;
+  margin-top: -20px;
+  color: #fff;
+  font-size: 40px;
+  cursor: pointer;
+  left: -68px;
+}
+.carousel-arrow-right {
+  display: block;
+  position: absolute;
+  width: 37px;
+  top: 46.5%;
+  margin-top: -20px;
+  color: #fff;
+  font-size: 40px;
+  cursor: pointer;
+  left: 1011px;
+}

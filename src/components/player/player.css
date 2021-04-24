@@ -1,0 +1,349 @@
+img {
+  display: inline-block;
+  width: 100%;
+}
+a {
+  color: inherit;
+}
+a:hover {
+  color: inherit;
+  text-decoration: underline;
+}
+.player-main {
+  position: fixed;
+  zoom: 1;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 86px;
+}
+
+.player-lock {
+  position: relative;
+  z-index: 1;
+}
+
+.player-left {
+  position: absolute;
+  top: -5px;
+  right: 15px;
+  display: inline-block;
+  width: 52px;
+  height: 67px;
+  background: url("./playbar.png") no-repeat;
+  cursor: pointer;
+  overflow: hidden;
+  background-position: 0 -380px;
+}
+
+.player-icon {
+  margin: 6px 0 0 17px;
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  background: url("./playbar.png") no-repeat;
+  cursor: pointer;
+  overflow: hidden;
+  background-position: -80px -380px;
+}
+
+.player-icon:hover {
+  background-position: -80px -400px;
+}
+
+.player-hand {
+  width: 100%;
+  height: 15px;
+  cursor: pointer;
+  opacity: 0.3;
+}
+
+.player-container {
+  background-color: #292929;
+  width: 100%;
+  height: 71px;
+}
+
+.player-wrap {
+  position: relative;
+  display: flex;
+  padding: 8px 0;
+  width: 980px;
+  margin: 0 auto;
+  height: 71px;
+}
+
+.player-btns {
+  width: 137px;
+  padding-top: 6px;
+  height: 55px;
+}
+
+.player-prev {
+  margin-right: 8px;
+  border-radius: 50%;
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+  background: url("./playbar.png") no-repeat;
+  cursor: pointer;
+  overflow: hidden;
+  background-position: 0 -130px;
+}
+.player-prev:hover {
+  background-position: -30px -130px;
+}
+
+.player-toggle {
+  margin-right: 8px;
+  border-radius: 50%;
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  background: url("./playbar.png") no-repeat;
+  cursor: pointer;
+  overflow: hidden;
+  background-position: -40px -204px;
+}
+
+.player-playing {
+  background-position: 0 -165px;
+}
+
+.player-next {
+  margin-right: 8px;
+  border-radius: 50%;
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+  background: url("./playbar.png") no-repeat;
+  cursor: pointer;
+  overflow: hidden;
+  background-position: -80px -130px;
+}
+
+.player-next:hover {
+  background-position: -110px -130px;
+}
+
+.player-head {
+  position: relative;
+  margin: 6px 15px 0 0;
+  width: 34px;
+  height: 49px;
+}
+
+.player-img {
+  width: 34px;
+  height: 34px;
+}
+
+.player-mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  width: 34px;
+  height: 34px;
+  background: url("./playbar.png") no-repeat;
+  cursor: pointer;
+  overflow: hidden;
+  background-position: 0 -80px;
+}
+
+.player-play {
+  width: 608px;
+  height: 55px;
+}
+.player-words {
+  color: #fff;
+  min-height: 18px;
+  text-shadow: 0 1px 0 0 5px 16px rgba(0, 0, 0, 0.8);
+}
+.player-hide {
+  visibility: hidden;
+}
+.player-clearfix:after {
+  clear: both;
+  content: ".";
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+.player-ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-wrap: normal;
+}
+.player-margin-bottom-none {
+  margin-bottom: 0;
+}
+.player-p {
+  float: left;
+  max-width: 300px;
+  min-width: 50px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.player-songs {
+  float: left;
+  min-width: 50px;
+}
+.player-li {
+  float: left;
+}
+.player-bar {
+  color: #fff;
+  width: 608px;
+  height: 25px;
+}
+.player-slider-wrap {
+  display: inline-block;
+  width: 490px;
+  height: 25px;
+  margin-right: 10px;
+  vertical-align: bottom;
+  padding: 8px 0;
+}
+.player-time {
+  width: 79.59px;
+  height: 18.5px;
+}
+.player-em {
+  width: 33.24px;
+  height: 18.5px;
+}
+.player-oper {
+  width: 60px;
+  height: 55px;
+}
+.player-like {
+  margin: 11px 2px 0 0;
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background: url("./playbar.png") no-repeat;
+  cursor: pointer;
+  overflow: hidden;
+  background-position: -88px -163px;
+}
+.player-like:hover {
+  background-position: -88px -189px;
+}
+.player-share {
+  margin: 11px 2px 0 0;
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background: url("./playbar.png") no-repeat;
+  cursor: pointer;
+  overflow: hidden;
+  background-position: -114px -163px;
+}
+.player-share:hover {
+  background-position: -114px -189px;
+}
+.player-ctrl {
+  position: relative;
+  width: 113px;
+  padding-left: 13px;
+  height: 55px;
+}
+.player-volume {
+  margin: 11px 2px 0 0;
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background: url("./playbar.png") no-repeat;
+  cursor: pointer;
+  overflow: hidden;
+  background-position: -2px -248px;
+}
+.player-volume:hover {
+  background-position: -31px -248px;
+}
+.player-loop {
+  margin: 11px 2px 0 0;
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background: url("./playbar.png") no-repeat;
+  cursor: pointer;
+  overflow: hidden;
+  background-position: -3px -344px;
+}
+.player-loop:hover {
+  background-position: -33px -344px;
+}
+.player-random {
+  margin: 11px 2px 0 0;
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background: url("./playbar.png") no-repeat;
+  cursor: pointer;
+  overflow: hidden;
+  background-position: -66px -248px;
+}
+.player-random:hover {
+  background-position: -93px -248px;
+}
+.player-singleLoop {
+  margin: 11px 2px 0 0;
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background: url("./playbar.png") no-repeat;
+  cursor: pointer;
+  overflow: hidden;
+  background-position: -66px -344px;
+}
+.player-singleLoop:hover {
+  background-position: -93px -344px;
+}
+.player-open {
+  display: inline-block;
+  cursor: pointer;
+  width: 24px;
+  height: 29px;
+}
+.player-span {
+  display: block;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.65);
+  text-shadow: 0 1px 0 0 5px 16px rgba(0, 0, 0, 0.8);
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background: url("./playbar.png") no-repeat;
+  cursor: pointer;
+  overflow: hidden;
+  background-position: -42px -68px;
+}
+.player-span:hover {
+  background-position: -42px -98px;
+}
+.player-control-vol {
+  position: absolute;
+  top: -128px;
+  left: 9px;
+  padding: 14px;
+  height: 120px;
+  background-color: #292929;
+  z-index: 1;
+  width: 32px;
+}
+.panel-main {
+  display: none;
+  position: absolute;
+  left: 0;
+  bottom: 70px;
+  width: 100%;
+  height: 300px;
+  background-color: #292929;
+  overflow: hidden;
+}
+.panel-show {
+  display: block;
+}

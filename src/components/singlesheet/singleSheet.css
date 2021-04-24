@@ -1,0 +1,66 @@
+img {
+  display: inline-block;
+  width: 100%;
+}
+.sheet-item {
+  width: 140px;
+  height: 204px;
+  margin-right: 42px;
+}
+.sheet-item:nth-of-type(4n) {
+  margin-right: 0 !important;
+}
+.sheet-cover {
+  position: relative;
+  display: block;
+  width: 140px;
+  height: 140px;
+}
+.sheet-bottom {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  background-color: #000;
+  color: #fff;
+  opacity: 0.8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3px 8px;
+  height: 28.5px;
+}
+.sheet-num {
+  width: 81.28px;
+  height: 22.5px;
+}
+.sheet-icon-headset {
+  display: inline-block;
+  width: 14px;
+  height: 11px;
+  background: url("./iconall.png") no-repeat;
+  cursor: pointer;
+  overflow: hidden;
+  background-position: 0 -24px;
+}
+.sheet-span {
+  margin-left: 8px;
+  vertical-align: text-bottom;
+  width: 59.28px;
+  height: 18.5px;
+}
+.sheet-icon-play {
+  display: inline-block;
+  width: 16px;
+  height: 17px;
+  background: url("./iconall.png") no-repeat;
+  cursor: pointer;
+  overflow: hidden;
+  background-position: 0 0;
+}
+.sheet-dec {
+  display: block;
+  margin-top: 8px;
+  cursor: pointer;
+  width: 140px;
+  height: 63px;
+}

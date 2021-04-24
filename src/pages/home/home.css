@@ -1,0 +1,43 @@
+h1 {
+  margin-bottom: 0;
+}
+.home-wrap {
+  display: flex;
+  justify-content: space-between;
+  height: 64px;
+  width: 1100px;
+  margin: 0 auto;
+}
+.home-left {
+  display: flex;
+  width: 313px;
+  height: 64px;
+}
+.home-h1 {
+  width: 157px;
+  color: #d3d3d3;
+  font-size: 26px;
+  margin-right: 20px;
+  text-align: center;
+}
+
+.home-right {
+  display: flex;
+  width: 294.5px;
+  height: 64px;
+}
+.home-search {
+  width: 202.5px;
+  height: 64px;
+}
+.home-member {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  width: 92px;
+  height: 64px;
+}
+.home-footer {
+  text-align: center;
+  height: 69px;
+}

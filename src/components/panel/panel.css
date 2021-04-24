@@ -1,0 +1,288 @@
+img {
+  display: inline-block;
+  width: 100%;
+}
+a {
+  color: inherit;
+}
+a:hover {
+  color: inherit;
+  text-decoration: underline;
+}
+h4 {
+  margin-bottom: 0;
+}
+.panel-hd {
+  background: url("./playlist_bg.png") no-repeat;
+}
+.panel-hdc {
+  position: relative;
+  height: 40px;
+}
+.panel-h4 {
+  position: absolute;
+  left: 25px;
+  top: 0;
+  height: 39px;
+  line-height: 39px;
+  font-size: 14px;
+  color: #e2e2e2;
+}
+.panel-add-all,
+.panel-clear-all {
+  position: absolute;
+  left: 398px;
+  top: 12px;
+  height: 15px;
+  line-height: 15px;
+  cursor: pointer;
+  color: #989898;
+  font-size: 12px;
+}
+.panel-add-all:hover,
+.panel-clear-all:hover {
+  color: #e2e2e2;
+}
+.panel-add-all:hover .panel-icon,
+.panel-clear-all:hover .panel-icon {
+  background-position: -88px -189px;
+}
+.panel-icon {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background: url("./playbar.png") no-repeat;
+  cursor: pointer;
+  overflow: hidden;
+  background-position: -88px -163px;
+  vertical-align: middle;
+}
+.panel-line {
+  position: absolute;
+  top: 15px;
+  left: 482px;
+  height: 15px;
+  border-left: 1px solid #000;
+  border-right: 1px solid #2c2c2c;
+}
+.panel-clear-all {
+  left: 490px;
+  top: 15px;
+}
+.panel-clear-all:hover .panel-trush {
+  background-position: -51px -20px;
+}
+.panel-trush {
+  width: 13px;
+  height: 16px;
+  background-image: url("./playlist.png");
+  background-position: -51px 0;
+}
+.panel-playing-name {
+  position: absolute;
+  left: 595px;
+  top: 0;
+  width: 346px;
+  text-align: center;
+  height: 39px;
+  line-height: 39px;
+  color: #fff;
+  font-size: 14px;
+}
+.panel-close {
+  position: absolute;
+  top: 6px;
+  right: 8px;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background: url("./playlist.png") no-repeat;
+  cursor: pointer;
+  overflow: hidden;
+  background-position: -195px 9px;
+}
+.panel-close:hover {
+  background-position: -195px -20px;
+}
+.panel-bd {
+  position: relative;
+  display: inline-block;
+  width: 976px;
+  height: 260px;
+  background: url("./playlist_bg.png") no-repeat;
+  cursor: pointer;
+  overflow: hidden;
+  background-position: -1014px 0;
+  background-repeat: repeat-y;
+}
+.panel-imgbg {
+  position: absolute;
+  left: 2px;
+  top: 0;
+  width: 980px;
+  height: auto;
+  opacity: 0.2;
+}
+.panel-msk {
+  position: absolute;
+  left: 2px;
+  top: 0;
+  z-index: 2;
+  width: 558px;
+  height: 260px;
+  background-color: #121212;
+  opacity: 0.5;
+}
+.panel-list-wrap {
+  position: absolute;
+  left: 2px;
+  top: 0;
+  z-index: 3;
+  height: 260px;
+  width: 553px;
+  color: #989898;
+  overflow: auto;
+}
+/* 滚动条整体样式 */
+::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 8px;
+}
+/* 滚动条里的轨道 */
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 0;
+}
+/* 滚动条里的小方块 */
+::-webkit-scrollbar-thumb {
+  cursor: pointer;
+  border-radius: 5px;
+  background: rgba(0, 0, 0, 0.25);
+  transition: color 0.2s ease;
+}
+.panel-li {
+  overflow: hidden;
+  padding: 10px 0;
+}
+.panel-col {
+  float: left;
+}
+.panel-arrow {
+  display: inline-block;
+  width: 10px;
+  height: 13px;
+  background: url("./playlist.png") no-repeat;
+  cursor: pointer;
+  overflow: hidden;
+  background-position: -182px 0;
+  margin: 6px 10px 0 10px;
+  visibility: hidden;
+}
+.panel-name {
+  width: 280px;
+}
+.panel-singers {
+  width: 70px;
+  margin: 0 10px;
+  float: left;
+  height: 20px;
+}
+.panel-singer-item {
+  float: left;
+}
+.panel-duration {
+  margin: 0 10px;
+}
+.panel-link {
+  display: inline-block;
+  width: 14px;
+  height: 16px;
+  background: url("./playlist.png") no-repeat;
+  cursor: pointer;
+  overflow: hidden;
+  background-position: -80px 0;
+  margin-top: 4px;
+}
+.panel-link:hover {
+  background-position: -80px -20px;
+}
+.panel-icons {
+  margin-top: 4px;
+  visibility: hidden;
+  overflow: hidden;
+}
+.panel-ico {
+  float: left;
+  margin: 0 3px;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: url("./playlist.png") no-repeat;
+  cursor: pointer;
+  overflow: hidden;
+}
+.panel-like {
+  background-position: -24px 0;
+}
+.panel-like:hover {
+  background-position: -24px -20px;
+}
+.panel-share {
+  background-position: 0 0;
+}
+.panel-share:hover {
+  background-position: 0 -20px;
+}
+.panel-trush {
+  background-position: -51px 0;
+}
+.panel-trush:hover {
+  background-position: -51px -20px;
+}
+.panel-li:hover {
+  color: #fff;
+  background-color: #000;
+}
+.panel-li:hover .panel-icons {
+  visibility: visible;
+}
+.panel-current {
+  background-color: #000;
+}
+.panel-arrow {
+  visibility: visible;
+}
+.panel-ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-wrap: normal;
+}
+.panel-clearfix:after {
+  clear: both;
+  content: ".";
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+.panel-list-lyric {
+  position: absolute;
+  right: 2px;
+  top: 0;
+  margin: 21px 0 20px 0;
+  height: 219px;
+  width: 414px;
+  overflow: auto;
+}
+.panel-li-2 {
+  color: #989898;
+  word-wrap: break-word;
+  text-align: center;
+  line-height: 32px;
+  transition: color 0.3s;
+  font-size: 12px;
+}
+.panel-li-2-current {
+  color: #fff;
+  font-size: 14px;
+}

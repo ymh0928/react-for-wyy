@@ -1,0 +1,99 @@
+img {
+  display: inline-block;
+  width: 100%;
+}
+.sheetList-wrap {
+  width: 980px;
+  margin: 0 auto;
+}
+.sheetList-feature-wrap {
+  min-height: 700px;
+  border: 1px solid #d3d3d3;
+  border-width: 0 1px;
+  background-color: #fff;
+}
+.sheetList-list-r {
+  padding: 40px;
+}
+.sheetList-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #c10d0c;
+  padding-bottom: 10px;
+}
+.sheetList-span-1 {
+  font-size: 24px;
+  color: #000;
+}
+.sheetList-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30px 0;
+}
+.sheetList-item {
+  width: 140px;
+  height: 204px;
+  margin-right: 49.4px;
+}
+.sheetList-item:nth-of-type(5n) {
+  margin-right: 0px !important;
+}
+.sheetList-cover {
+  position: relative;
+  display: block;
+  width: 140px;
+  height: 140px;
+}
+
+.sheetList-bottom {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  background-color: #000;
+  color: #fff;
+  opacity: 0.8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3px 8px;
+  height: 28.5px;
+}
+.sheetList-num {
+  width: 81.28px;
+  height: 22.5px;
+}
+.sheetList-icon-headset {
+  display: inline-block;
+  width: 14px;
+  height: 11px;
+  background: url("./iconall.png") no-repeat;
+  cursor: pointer;
+  overflow: hidden;
+  background-position: 0 -24px;
+}
+.sheetList-span-2 {
+  margin-left: 8px;
+  vertical-align: text-bottom;
+  width: 59.28px;
+  height: 18.5px;
+}
+.sheetList-icon-play {
+  display: inline-block;
+  width: 16px;
+  height: 17px;
+  background: url("./iconall.png") no-repeat;
+  cursor: pointer;
+  overflow: hidden;
+  background-position: 0 0;
+}
+.sheetList-dec {
+  display: block;
+  margin-top: 8px;
+  cursor: pointer;
+  width: 140px;
+  height: 63px;
+}
+.sheetList-pagination {
+  text-align: center;
+}
